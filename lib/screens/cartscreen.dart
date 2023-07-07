@@ -11,6 +11,8 @@ class CartScreen extends StatelessWidget {
     if (AddToCart.cartItems.isEmpty) {
       return Scaffold(
         appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.amberAccent,
           title: const Text('Cart'),
         ),
         body: const Center(

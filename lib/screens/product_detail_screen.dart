@@ -16,6 +16,7 @@ class ProductDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text('Product Details'),
       ),
       body: SingleChildScrollView(
@@ -95,4 +96,3 @@ class ProductDetailScreen extends StatelessWidget {
     ScaffoldMessenger.of(context).showSnackBar(snackBar);
   }
 }
-

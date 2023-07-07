@@ -6,6 +6,7 @@ import 'package:online_store/screens/product_detail_screen.dart';
 import 'package:online_store/screens/searchscreen.dart';
 
 import '../model/product.dart';
+
 class HomeScreen extends StatelessWidget {
   final ProductController productController = Get.put(ProductController());
 
@@ -15,6 +16,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Colors.amberAccent,
         title: const Text('Home page'),
         actions: [

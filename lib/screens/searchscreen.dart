@@ -20,10 +20,11 @@ class SearchScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: TextField(
           controller: searchController,
           decoration: const InputDecoration(
-            hintText: 'Search...',
+            hintText: 'Search the product',
             border: InputBorder.none,
           ),
           onChanged: (value) {
